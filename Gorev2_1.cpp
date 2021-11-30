@@ -7,7 +7,7 @@ int main()
     std::vector<double> v;                                                            
     double input;                                                                
     std::cout << "Please enter numbers you want to find the mean of:" <<std::endl;
-    std::cout << "Press a letter to calculate the mean."<<std::endl;      
+    std::cout << "Press a letter to calculate the mean and the standard deviation."<<std::endl;      
     while (std::cin >> input)                                      
         v.push_back(input);                                                     
     double average = std::accumulate( v.begin(), v.end(), 0.0)/v.size();              
